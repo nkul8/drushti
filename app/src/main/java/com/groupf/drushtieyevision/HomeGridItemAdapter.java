@@ -1,9 +1,6 @@
 package com.groupf.drushtieyevision;
 
 import android.app.Activity;
-import android.content.Context;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by sourabh on 3/30/2017.
- */
 
 public class HomeGridItemAdapter extends ArrayAdapter<HomeGridItem> {
 
@@ -38,10 +32,10 @@ public class HomeGridItemAdapter extends ArrayAdapter<HomeGridItem> {
 
         numberTextView.setText(currentGridItem.getmItemName());
 
-
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.grid_item_icon);
 
         iconView.setImageResource(currentGridItem.getmImageResourceId());
+
 
         return listItemView;
     }
