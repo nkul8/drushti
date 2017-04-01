@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/gridview_home"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-     android:numColumns="2"
-    android:background="#ECEFF1"/>
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mAbout"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="about"
+        android:textSize="22sp"
+        android:onClick="mAbout"/>
+    <TextView
+        android:id="@+id/mDonate"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="donate"
+        android:textSize="22sp"
+        android:onClick="mDonate"/>
+    <TextView
+        android:id="@+id/mGallery"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="gallery"
+        android:textSize="22sp"
+        android:onClick="mGallery"/>
+    <TextView
+        android:id="@+id/mTeam"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="team"
+        android:textSize="22sp"
+        android:onClick="mTeam"/>
+    <TextView
+        android:id="@+id/mFeed"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="feedback"
+        android:textSize="22sp"
+        android:onClick="mFeed"/>
+    <TextView
+        android:id="@+id/mContact"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="contact"
+        android:textSize="22sp"
+        android:onClick="mContact"/>
+</LinearLayout>

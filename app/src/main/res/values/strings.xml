@@ -2,4 +2,8 @@
     <string name="app_name">Drushti Eye Vision</string>
     <string name="contact">Contact</string>
     <string name="team_members">Team Members</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_us_para1">Today’s youth should be aware of the social problems faced by the society so that a new change can take place.</string>
+    <string name="about_us_para2">Due to this we all students have get together keeping a vision in our eyes for the benefit of that section of people in the society who should get equal rights, who should get the chance to show their skills and knowledge in the society just like the common people.</string>
+    <string name="about_us_para_3">Is is not any disability which creates a rift between these people and the common man and inorder to bridge this gap we all students have come together.</string>
 </resources>

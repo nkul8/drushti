@@ -12,8 +12,6 @@
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:paddingBottom="22dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="30dp"
         android:text="DRUSHTI - Vision for Blind "
         android:textColor="#292929"
@@ -24,19 +22,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+
         android:text="Address :"
         android:textColor="#292929"
         android:textSize="18sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+
         android:text="F-21, Ranjit Society,"
         android:textColor="#292929"
         android:textSize="18sp" />
@@ -45,8 +40,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+
         android:text="Shirole Road,"
         android:textColor="#292929"
         android:textSize="18sp" />
@@ -54,8 +48,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+
         android:text="Shivajinagar, Pune. 411005"
         android:textColor="#292929"
         android:textSize="18sp" />
@@ -64,42 +57,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:paddingBottom="16dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:paddingTop="16dp"
-        android:text="Email : drushtivision@gmail.com"
-        android:textSize="18sp"
-        android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/drushti_email"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_gravity="center_vertical"
-            android:onClick="openEmail"
-            android:src="@drawable/email" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:paddingBottom="16dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:paddingTop="16dp"
-        android:text="Contact : 9730277442"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="Contact : +91 9730277442"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/drushti_phone"
@@ -107,6 +74,8 @@
             android:layout_height="44dp"
             android:layout_gravity="center_vertical"
             android:onClick="openPhone"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:src="@drawable/phone" />
     </LinearLayout>
 
@@ -120,10 +89,34 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="Email : drushtivision@gmail.com"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/drushti_email"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="openEmail"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
+            android:src="@drawable/email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="16dp"
             android:paddingTop="16dp"
-            android:text="Visit Us : http://www.drushti.org"
+            android:text="Visit Us : www.drushti.org"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -133,6 +126,8 @@
             android:layout_height="44dp"
             android:layout_gravity="center_vertical"
             android:onClick="openSite"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:src="@drawable/link" />
     </LinearLayout>
 
