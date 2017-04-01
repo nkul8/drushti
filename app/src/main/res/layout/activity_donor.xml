@@ -11,7 +11,7 @@
         android:background="@color/colorPrimaryDark"
         android:gravity="center"
         android:onClick="openDonorForm"
-        android:text="submit"
+        android:text="donate"
         android:textAllCaps="true"
         android:textColor="#f5f5f5"
         android:textSize="22sp"

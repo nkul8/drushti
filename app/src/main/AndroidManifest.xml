@@ -8,13 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity"
+            android:label="Drushti Eye vision">
+
+        </activity>
+
         <activity
             android:name=".ContactActivity"
             android:label="@string/contact"
@@ -23,6 +30,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.groupf.drushtieyevision.MainActivity" />
         </activity>
+
         <activity
             android:name=".TeamMembers"
             android:label="@string/team_members"
@@ -31,6 +39,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.groupf.drushtieyevision.MainActivity" />
         </activity>
+
         <activity
             android:name=".about"
             android:label="@string/title_activity_about"
@@ -40,13 +49,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.groupf.drushtieyevision.MainActivity" />
         </activity>
-        <activity android:name=".donorActivity"
+
+        <activity
+            android:name=".donorActivity"
             android:label="Eye Donation Details "
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.groupf.drushtieyevision.MainActivity" />
         </activity>
+
     </application>
 
 </manifest>
