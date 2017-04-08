@@ -25,15 +25,13 @@ public class HomeGridItemAdapter extends ArrayAdapter<HomeGridItem> {
                     R.layout.list_item, parent, false);
         }
 
+
         HomeGridItem currentGridItem = getItem(position);
 
-
         TextView numberTextView = (TextView) listItemView.findViewById(R.id.grid_item_text);
-
         numberTextView.setText(currentGridItem.getmItemName());
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.grid_item_icon);
-
         iconView.setImageResource(currentGridItem.getmImageResourceId());
 
 

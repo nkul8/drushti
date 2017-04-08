@@ -5,8 +5,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.GridView;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*ArrayList<HomeGridItem> homeGridItems = new ArrayList<HomeGridItem>();
+       /* ArrayList<HomeGridItem> homeGridItems = new ArrayList<HomeGridItem>();
         homeGridItems.add(new HomeGridItem(R.drawable.test_image, "About"));
         homeGridItems.add(new HomeGridItem(R.drawable.test_image, "Donate"));
         homeGridItems.add(new HomeGridItem(R.drawable.test_image, "Event & Gallery"));
@@ -27,10 +25,11 @@ public class MainActivity extends AppCompatActivity {
         HomeGridItemAdapter homeGridItemAdapter = new HomeGridItemAdapter(this, homeGridItems);
 
         // Get a reference to the ListView, and attach the adapter to the listView.
-        GridView gView = (GridView) findViewById(R.id.gridview_home);
+       /* GridView gView = (GridView) findViewById(R.id.gridview_home);
         gView.setAdapter(homeGridItemAdapter);*/
     }
-    public void mAbout(View view){
+
+   public void mAbout(View view){
         Intent intent = new Intent(this,about.class);
         startActivity(intent);
     }
@@ -39,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void mGallery(View view){
-
+        Intent intent = new Intent(this, com.groupf.drushtieyevision.Gallery.class);
+        startActivity(intent);
     }
     public void mTeam(View view){
         Intent intent = new Intent(this,TeamMembers.class);

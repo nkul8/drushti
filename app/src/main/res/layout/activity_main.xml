@@ -1,49 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/mAbout"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="about"
-        android:textSize="22sp"
-        android:onClick="mAbout"/>
-    <TextView
-        android:id="@+id/mDonate"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="donate"
-        android:textSize="22sp"
-        android:onClick="mDonate"/>
-    <TextView
-        android:id="@+id/mGallery"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="gallery"
-        android:textSize="22sp"
-        android:onClick="mGallery"/>
-    <TextView
-        android:id="@+id/mTeam"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="team"
-        android:textSize="22sp"
-        android:onClick="mTeam"/>
-    <TextView
-        android:id="@+id/mFeed"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="feedback"
-        android:textSize="22sp"
-        android:onClick="mFeed"/>
-    <TextView
-        android:id="@+id/mContact"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:text="contact"
-        android:textSize="22sp"
-        android:onClick="mContact"/>
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mAbout"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#b8c1ff"
+            android:gravity="center"
+            android:onClick="mAbout"
+            android:text="About"
+            android:textColor="#f5f5f5"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/mDonate"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#ffb8c1"
+            android:gravity="center"
+            android:onClick="mDonate"
+            android:text="Donate"
+            android:textColor="#f5f5f5"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/mGallery"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#baaff6"
+            android:gravity="center"
+            android:onClick="mGallery"
+            android:text="Gallery"
+            android:textColor="#f5f5f5"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/mTeam"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#c6b8"
+            android:gravity="center"
+            android:onClick="mTeam"
+            android:text="Our Team"
+            android:textColor="#f5f5f5"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/mContact"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#d191ff"
+            android:gravity="center"
+            android:onClick="mContact"
+            android:text="Contact"
+            android:textColor="#f5f5f5"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/mFeed"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#5f9aac"
+            android:gravity="center"
+            android:onClick="mFeed"
+            android:text="Feedback"
+            android:textColor="#f5f5f5"
+            android:textSize="28sp" />
+
+
+    </LinearLayout>
+</ScrollView>
